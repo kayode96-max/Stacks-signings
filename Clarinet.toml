@@ -16,6 +16,27 @@ epoch = 3.1
 path = 'contracts/multisig.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.signer-manager]
+path = 'contracts/signer-manager.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.timelock]
+path = 'contracts/timelock.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.spending-limits]
+path = 'contracts/spending-limits.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.token-allowlist]
+path = 'contracts/token-allowlist.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
